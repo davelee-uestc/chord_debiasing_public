@@ -1,0 +1,22 @@
+# Downloaded inputs and generated outputs
+/resources/
+/downloads/
+/data/
+/pretrained/
+/runs/
+/cache/
+/checkpoints/
+*.pt
+*.pth
+*.zip
+*.tgz
+*.tar.gz
+
+# Local Python and notebook files
+/.venv/
+/venv/
+/chord-venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store

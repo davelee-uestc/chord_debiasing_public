@@ -1,0 +1,39 @@
+{
+  "classes": 8,
+  "target": 1,
+  "transform": 1100,
+  "head": 8000,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "attributes": [
+    "sex",
+    "intensity"
+  ],
+  "modality": "audio",
+  "views": [
+    "hubert",
+    "wav2vec2",
+    "wavlm",
+    "whisper"
+  ],
+  "train": {
+    "epochs": 10,
+    "batch_size": 48,
+    "lr": 2e-05,
+    "weight_decay": 0.0001,
+    "per_device_batch_size": 8,
+    "layerdrop": 0.0,
+    "gradient_checkpointing": true
+  },
+  "extract_batch_size": 8
+}

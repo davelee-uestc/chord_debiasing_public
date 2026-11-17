@@ -1,0 +1,35 @@
+{
+  "classes": 2,
+  "target": 1,
+  "transform": 200,
+  "head": 500,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "attributes": [],
+  "modality": "vision",
+  "views": [
+    "barlow_twins",
+    "blip_vision",
+    "clip_vision",
+    "dino",
+    "simclr",
+    "swav"
+  ],
+  "train": {
+    "epochs": 100,
+    "batch_size": 32,
+    "lr": 0.003,
+    "weight_decay": 0.0001
+  },
+  "extract_batch_size": 64
+}

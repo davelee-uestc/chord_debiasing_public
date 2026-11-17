@@ -1,0 +1,41 @@
+{
+  "classes": 6,
+  "target": 1,
+  "transform": 1500,
+  "head": 4000,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "attributes": [
+    "sex",
+    "nonwhite",
+    "ageband",
+    "agequart",
+    "sexrace"
+  ],
+  "modality": "audio",
+  "views": [
+    "hubert",
+    "wav2vec2",
+    "wavlm",
+    "whisper"
+  ],
+  "train": {
+    "epochs": 15,
+    "batch_size": 8,
+    "lr": 2e-05,
+    "weight_decay": 0.0001,
+    "layerdrop": 0.0,
+    "gradient_checkpointing": true
+  },
+  "extract_batch_size": 8
+}

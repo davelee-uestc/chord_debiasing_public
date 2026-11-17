@@ -1,0 +1,50 @@
+{
+  "resources": "https://drive.google.com/file/d/1mDpLaRinvDXcKTFLj92iOwLIxUdjm1R0/view?usp=sharing",
+  "models": {
+    "huggingface": {
+      "bert": "bert-base-uncased",
+      "roberta": "FacebookAI/roberta-base",
+      "electra": "google/electra-base-discriminator",
+      "simcse": "princeton-nlp/unsup-simcse-bert-base-uncased",
+      "clip": "openai/clip-vit-base-patch32",
+      "blip": "Salesforce/blip-itm-base-coco",
+      "wav2vec2": "facebook/wav2vec2-base",
+      "hubert": "facebook/hubert-base-ls960",
+      "wavlm": "microsoft/wavlm-base",
+      "whisper": "openai/whisper-base"
+    },
+    "files": {
+      "resnet50": "https://download.pytorch.org/models/resnet50-19c8e357.pth",
+      "dino": "https://dl.fbaipublicfiles.com/dino/dino_resnet50_pretrain/dino_resnet50_pretrain.pth",
+      "simclr": "https://dl.fbaipublicfiles.com/vissl/model_zoo/simclr_rn50_800ep_simclr_8node_resnet_16_07_20.7e8feed1/model_final_checkpoint_phase799.torch",
+      "barlow_twins": "https://dl.fbaipublicfiles.com/vissl/model_zoo/barlow_twins/barlow_twins_32gpus_4node_imagenet1k_1000ep_resnet50.torch",
+      "swav": "https://dl.fbaipublicfiles.com/deepcluster/swav_800ep_pretrain.pth.tar"
+    }
+  },
+  "data": {
+    "waterbirds": {
+      "archive": "https://downloads.cs.stanford.edu/nlp/data/dro/waterbird_complete95_forest2water2.tar.gz"
+    },
+    "celeba": {
+      "archive": "https://cseweb.ucsd.edu/~weijian/static/datasets/celeba/img_align_celeba.zip",
+      "metadata": "https://raw.githubusercontent.com/PolinaKirichenko/deep_feature_reweighting/main/celeba_metadata.csv"
+    },
+    "multinli": {
+      "archive": "https://downloads.cs.stanford.edu/nlp/data/dro/multinli_bert_features.tar.gz",
+      "metadata": "https://raw.githubusercontent.com/kohpangwei/group_DRO/master/dataset_metadata/multinli/metadata_random.csv"
+    },
+    "civilcomments": {
+      "csv": "https://huggingface.co/datasets/shlomihod/civil-comments-wilds/resolve/main/all_data_with_identities.csv"
+    },
+    "cremad": {
+      "files": {
+        "train.parquet": "https://huggingface.co/datasets/confit/cremad-parquet/resolve/main/data/train-00000-of-00001.parquet",
+        "validation.parquet": "https://huggingface.co/datasets/confit/cremad-parquet/resolve/main/data/validation-00000-of-00001.parquet",
+        "test.parquet": "https://huggingface.co/datasets/confit/cremad-parquet/resolve/main/data/test-00000-of-00001.parquet"
+      }
+    },
+    "mead": {
+      "archive": "https://huggingface.co/datasets/turturtur250/MelTrim/resolve/main/MEAD.zip"
+    }
+  }
+}
