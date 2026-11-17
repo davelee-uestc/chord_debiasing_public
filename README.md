@@ -6,7 +6,7 @@ Code for **Cross-view Harmonic Outlier Reversal for Debiasing (CHORD)**, based o
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davelee-uestc/chord_debiasing_public/blob/main/reproduce_colab.ipynb)
 
-Use [the Colab notebook](reproduce_colab.ipynb) to clone this repository, install the pinned environment, download the supplied resources, and reproduce the six-dataset results. Select a **T4 GPU** runtime and run the cells in order. The notebook also lets you download the results and regenerated classifier weights.
+Use [the Colab notebook](reproduce_colab.ipynb) to clone this repository, install the pinned environment, download the supplied resources, and reproduce the six-dataset results. Select a **T4 GPU** runtime and run the cells in order. The notebook displays live command output, plots ERM and CHORD worst-group accuracy, and lets you download the results, figure, and regenerated classifier weights.
 
 The resource archive is approximately **5.27 GB**. This workflow uses the provided ERM models and feature caches; it does not retrain the encoders from raw data. No Google Drive mount is required.
 
