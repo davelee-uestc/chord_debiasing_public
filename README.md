@@ -2,6 +2,8 @@
 
 Code for **Cross-view Harmonic Outlier Reversal for Debiasing (CHORD)**, based on the [NSF implementation](https://github.com/davelee-uestc/nsf_debiasing).
 
+**Paper:** [Let Samples Sing in Chorus: Mitigating Spurious Correlations via Cross-view Consensus](https://arxiv.org/abs/2611.22668) (Under Review).
+
 ## Google Colab
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davelee-uestc/chord_debiasing_public/blob/main/reproduce_colab.ipynb)
